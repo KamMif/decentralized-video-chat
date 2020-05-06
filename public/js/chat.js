@@ -26,7 +26,7 @@ const captionButtontext = $("#caption-button-text");
 const entireChat = $("#entire-chat");
 const chatZone = $("#chat-zone");
 
-var VideoChat = {
+const VideoChat = {
   connected: false,
   willInitiateCall: false,
   localICECandidates: [],
